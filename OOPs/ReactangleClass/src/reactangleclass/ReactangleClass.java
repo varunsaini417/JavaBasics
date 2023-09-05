@@ -41,14 +41,10 @@ public class ReactangleClass  {
         
         switch(choice){
             case 1 :
-                double result = r1.area();
-                System.out.println("The area is: " + result);
-                
+                System.out.println("The area is: " + r1.area());
                 break;
-            case 2: 
-                double presult = r1.perimeter();
-                System.out.println("The perimeter is: " +presult);
-                r1.perimeter();
+            case 2:
+                System.out.println("The perimeter is: " +r1.perimeter());
                 break;
             case 3:
                 System.out.println("Square or not: " );
